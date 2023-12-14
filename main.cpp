@@ -10,14 +10,12 @@ class Car{
 
     //public area
     public:
-        //complete the setter function
         void setHorsepowers(int x) {
-            horsepowers = x;
+            horsepowers = x; //storing it into the horsepower variable of the class
         }
     
-        //complete the getter function
-        int getHorsepowers() {
-            if(horsepowers >= 800){
+        int getHorsepowers() { //access the value of the horsepower variable stored in the private access specifier of the class
+            if(horsepowers >= 800){ //unless it's equal or greater than 800 where it will output "Too Much"
             cout << "Too much" << endl;
         }
             return horsepowers;
@@ -28,7 +26,6 @@ class Car{
 
 
 int main() {
-    //getting input
     int horsepowers;
     cin >> horsepowers;
     //creating the object of class Car
