@@ -5,4 +5,13 @@ Complete the given program by completing methods to set and get the horsepower o
 
 The program should warn "Too much" if the inputted horsepower exceeds 800.
 
+Sample Input
+
+950
+
+Sample Output
+
+Too much
+
+950
 
